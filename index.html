@@ -3,16 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Learning Review</title>
-    <link rel="stylesheet" href="styles.css" />
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+          crossorigin="anonymous"
+        />
+      </head>
+      <body>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+          crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="styles.css" />
+      </body>
+    </html>
+    <title>Responsive Review Learning</title>
   </head>
   <body>
-    <h2>👋 Hi I am</h2>
-    <h1>Cashmir Balajadia</h1>
-    <h3>Front-end developer, based in UK</h3>
-    <div class="navigation-links">
-      <a href="about.html#contact" class="contact-link">Contact Me</a>
-      <a href="about.html" class="about-link">About Me</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Cashmir Balajadia</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <h2>👋 Hi I am</h2>
+      <h1>Cashmir Balajadia</h1>
+      <h3>Front-end Developer, based in UK</h3>
+      <div class="navigation-links">
+        <a href="contact.html" class="primary-link">Contact Me</a>
+        <a href="about.html" class="secondary-link">About Me</a>
+      </div>
+    </header>
+    <div class="container project-section">
+      <div class="row">
+        <div class="col-sm-6">
+          <img
+            src="images/SheCodes Basic image.png"
+            alt="escape-image"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h2>Escape Room App</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <a href="#" class="primary-link">Launch Escape Room App</a>
+        </div>
+      </div>
     </div>
   </body>
 </html>
