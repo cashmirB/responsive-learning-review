@@ -32,8 +32,14 @@ p {
   line-height: 1.5;
 }
 
+img {
+  padding: 10px;
+  border: 5px solid #cfcccc;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
 .navigation-links {
-  margin-top: 40px;
+  margin: 40px;
   display: flex;
   justify-content: center;
 }
@@ -68,8 +74,41 @@ p {
   text-decoration: none;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 500px) {
   h1 {
-    color: red;
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  .navigation-links {
+    font-size: 12px;
+    margin: 20px;
+  }
+
+  h4 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row {
+    margin-bottom: 50px;
   }
 }
